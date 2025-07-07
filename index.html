@@ -2,22 +2,18 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Zen Quotes</title>
-  <link rel="stylesheet" href="index.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quote Generator</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <main class="container">
-    <h1>🧘 Zen Quotes</h1>
+  <div class="container">
     <div class="quote-box">
-      <p id="quote-text">Loading...</p>
-      <p id="quote-author"></p>
+      <p id="quote-text" class="quote-text">Loading...</p>
+      <p id="quote-author" class="quote-author"></p>
+      <button id="new-quote-btn" class="quote-button">New Quote</button>
     </div>
-    <button id="new-quote-btn">New Quote</button>
-
-    <p class="attribution">
-      Quotes provided by <a href="https://zenquotes.io/" target="_blank" rel="noopener noreferrer">ZenQuotes.io</a>
-    </p>
-  </main>
-  <script src="index.js"></script>
+  </div>
+  <script src="app.js"></script>
 </body>
 </html>
